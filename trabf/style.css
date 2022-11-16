@@ -252,6 +252,18 @@ section
   color:var(--marrom);
   padding:1rem 0;
 }
+.home .content input
+{
+    align-self: center;
+    padding:0.4rem;
+    font-size: 1.3rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .3rem;
+    width:49%;
+}
+
 
 .box-container{
   display: flex;
@@ -321,6 +333,14 @@ section
 .loader-container.fade-out{
   top:-120%;
 }
+
+/*----------------------------------------LOGIN------------------------------------------*/
+
+
+
+
+
+
 /* media*/
 
 @media(max-width:991px){
