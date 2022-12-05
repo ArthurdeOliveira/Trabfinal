@@ -268,11 +268,11 @@ section
 .box-container{
   display: flex;
   flex-wrap: wrap;
-  gap:1.5rem;
+  gap:1.2rem;
 }
 
 .box-container .box{
-  padding:2rem;
+  padding:7rem;
   background:var(--branco);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   border:.1rem solid rgba(0,0,0,.3);
@@ -284,13 +284,13 @@ section
 
 .box-container .box img{
   height:25rem;
-  object-fit: cover;
+  object-fit: auto;
   width:100%;
   border-radius: .5rem;
 }
 
 .box-container .box h3{
-  color:#333;
+  color:rgb(146, 28, 28);
   font-size: 2.5rem;
   padding-top: 1rem;
 }
@@ -402,7 +402,7 @@ section
 }
 
 .subtitulo {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
